@@ -1,0 +1,22 @@
+{
+  "name": "redis-lru-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.mjs",
+  "type": "module",
+  "scripts": {
+    "app-test": "node run.mjs",
+    "app-save-output-db-only": "node run.mjs false 0 true > db-only.log",
+    "app-save-output-db-with-redis": "node run.mjs false 101 true > db-with-redis.log",
+    "app-save-output-db-with-redis-fail-halfway-without-fallback-lru": "node run.mjs false 50 true > db-with-redis-fail-halfway-without-fallback-lru.log",
+    "app-save-output-db-with-redis-fail-halfway-with-fallback-lru": "node run.mjs true 50 true > db-with-redis-fail-halfway-with-fallback-lru.log",
+    "app-save-output-db-with-lru-fallback-redis-which-fails-halfway": "node run.mjs true 50 false > db-with-lru-fallback-redis-which-fails-halfway.log"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asciichart": "^1.5.25",
+    "lru-cache": "^6.0.0",
+    "seedrandom": "^3.0.5"
+  }
+}

@@ -1,0 +1,2790 @@
+
+>> APP VARIABLES
+REDIS_GET 1
+REDIS_SET 1
+DB_FETCHES 1
+LRU_SET 1
+LRU_GET 1
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 0
+APP_EXECUTIONS_COUNT 1
+APP_EXECUTION_TIME (ms) 326
+AVERAGE(APP_EXECUTION_TIME) (ms) 326
+
+>> CHART
+     326.00 ┼ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 2
+REDIS_SET 2
+DB_FETCHES 2
+LRU_SET 2
+LRU_GET 2
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 0
+APP_EXECUTIONS_COUNT 2
+APP_EXECUTION_TIME (ms) 264
+AVERAGE(APP_EXECUTION_TIME) (ms) 295
+
+>> CHART
+     326.00 ┼╮ 
+     319.80 ┤│ 
+     313.60 ┤│ 
+     307.40 ┤│ 
+     301.20 ┤│ 
+     295.00 ┤│ 
+     288.80 ┤│ 
+     282.60 ┤│ 
+     276.40 ┤│ 
+     270.20 ┤│ 
+     264.00 ┤╰ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 3
+REDIS_SET 3
+DB_FETCHES 3
+LRU_SET 3
+LRU_GET 3
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 1
+APP_EXECUTIONS_COUNT 3
+APP_EXECUTION_TIME (ms) 266
+AVERAGE(APP_EXECUTION_TIME) (ms) 285
+
+>> CHART
+     326.00 ┼╮  
+     319.80 ┤│  
+     313.60 ┤│  
+     307.40 ┤│  
+     301.20 ┤│  
+     295.00 ┤│  
+     288.80 ┤│  
+     282.60 ┤│  
+     276.40 ┤│  
+     270.20 ┤│  
+     264.00 ┤╰─ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 4
+REDIS_SET 4
+DB_FETCHES 4
+LRU_SET 4
+LRU_GET 4
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 1
+APP_EXECUTIONS_COUNT 4
+APP_EXECUTION_TIME (ms) 266
+AVERAGE(APP_EXECUTION_TIME) (ms) 281
+
+>> CHART
+     326.00 ┼╮   
+     319.80 ┤│   
+     313.60 ┤│   
+     307.40 ┤│   
+     301.20 ┤│   
+     295.00 ┤│   
+     288.80 ┤│   
+     282.60 ┤│   
+     276.40 ┤│   
+     270.20 ┤│   
+     264.00 ┤╰── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 5
+REDIS_SET 5
+DB_FETCHES 5
+LRU_SET 5
+LRU_GET 5
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 1
+APP_EXECUTIONS_COUNT 5
+APP_EXECUTION_TIME (ms) 266
+AVERAGE(APP_EXECUTION_TIME) (ms) 278
+
+>> CHART
+     326.00 ┼╮    
+     319.80 ┤│    
+     313.60 ┤│    
+     307.40 ┤│    
+     301.20 ┤│    
+     295.00 ┤│    
+     288.80 ┤│    
+     282.60 ┤│    
+     276.40 ┤│    
+     270.20 ┤│    
+     264.00 ┤╰─── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 5
+REDIS_SET 5
+DB_FETCHES 5
+LRU_SET 5
+LRU_GET 6
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 1
+APP_EXECUTIONS_COUNT 6
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 231
+
+>> CHART
+     326.00 ┼╮     
+     293.40 ┤│     
+     260.80 ┤╰───╮ 
+     228.20 ┤    │ 
+     195.60 ┤    │ 
+     163.00 ┤    │ 
+     130.40 ┤    │ 
+      97.80 ┤    │ 
+      65.20 ┤    │ 
+      32.60 ┤    │ 
+       0.00 ┤    ╰ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 5
+REDIS_SET 5
+DB_FETCHES 5
+LRU_SET 5
+LRU_GET 7
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 1
+APP_EXECUTIONS_COUNT 7
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 198
+
+>> CHART
+     326.00 ┼╮      
+     293.40 ┤│      
+     260.80 ┤╰───╮  
+     228.20 ┤    │  
+     195.60 ┤    │  
+     163.00 ┤    │  
+     130.40 ┤    │  
+      97.80 ┤    │  
+      65.20 ┤    │  
+      32.60 ┤    │  
+       0.00 ┤    ╰─ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 6
+REDIS_SET 6
+DB_FETCHES 6
+LRU_SET 6
+LRU_GET 8
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 1
+APP_EXECUTIONS_COUNT 8
+APP_EXECUTION_TIME (ms) 265
+AVERAGE(APP_EXECUTION_TIME) (ms) 207
+
+>> CHART
+     326.00 ┼╮       
+     293.40 ┤│       
+     260.80 ┤╰───╮ ╭ 
+     228.20 ┤    │ │ 
+     195.60 ┤    │ │ 
+     163.00 ┤    │ │ 
+     130.40 ┤    │ │ 
+      97.80 ┤    │ │ 
+      65.20 ┤    │ │ 
+      32.60 ┤    │ │ 
+       0.00 ┤    ╰─╯ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 6
+REDIS_SET 6
+DB_FETCHES 6
+LRU_SET 6
+LRU_GET 9
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 9
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 184
+
+>> CHART
+     326.00 ┼╮        
+     293.40 ┤│        
+     260.80 ┤╰───╮ ╭╮ 
+     228.20 ┤    │ ││ 
+     195.60 ┤    │ ││ 
+     163.00 ┤    │ ││ 
+     130.40 ┤    │ ││ 
+      97.80 ┤    │ ││ 
+      65.20 ┤    │ ││ 
+      32.60 ┤    │ ││ 
+       0.00 ┤    ╰─╯╰ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 7
+REDIS_SET 7
+DB_FETCHES 7
+LRU_SET 7
+LRU_GET 10
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 10
+APP_EXECUTION_TIME (ms) 266
+AVERAGE(APP_EXECUTION_TIME) (ms) 192
+
+>> CHART
+     326.00 ┼╮         
+     293.40 ┤│         
+     260.80 ┤╰───╮ ╭╮╭ 
+     228.20 ┤    │ │││ 
+     195.60 ┤    │ │││ 
+     163.00 ┤    │ │││ 
+     130.40 ┤    │ │││ 
+      97.80 ┤    │ │││ 
+      65.20 ┤    │ │││ 
+      32.60 ┤    │ │││ 
+       0.00 ┤    ╰─╯╰╯ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 7
+REDIS_SET 7
+DB_FETCHES 7
+LRU_SET 7
+LRU_GET 11
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 11
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 174
+
+>> CHART
+     326.00 ┼╮          
+     293.40 ┤│          
+     260.80 ┤╰───╮ ╭╮╭╮ 
+     228.20 ┤    │ ││││ 
+     195.60 ┤    │ ││││ 
+     163.00 ┤    │ ││││ 
+     130.40 ┤    │ ││││ 
+      97.80 ┤    │ ││││ 
+      65.20 ┤    │ ││││ 
+      32.60 ┤    │ ││││ 
+       0.00 ┤    ╰─╯╰╯╰ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 7
+REDIS_SET 7
+DB_FETCHES 7
+LRU_SET 7
+LRU_GET 12
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 12
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 160
+
+>> CHART
+     326.00 ┼╮           
+     293.40 ┤│           
+     260.80 ┤╰───╮ ╭╮╭╮  
+     228.20 ┤    │ ││││  
+     195.60 ┤    │ ││││  
+     163.00 ┤    │ ││││  
+     130.40 ┤    │ ││││  
+      97.80 ┤    │ ││││  
+      65.20 ┤    │ ││││  
+      32.60 ┤    │ ││││  
+       0.00 ┤    ╰─╯╰╯╰─ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 8
+REDIS_SET 8
+DB_FETCHES 8
+LRU_SET 8
+LRU_GET 13
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 13
+APP_EXECUTION_TIME (ms) 266
+AVERAGE(APP_EXECUTION_TIME) (ms) 168
+
+>> CHART
+     326.00 ┼╮            
+     293.40 ┤│            
+     260.80 ┤╰───╮ ╭╮╭╮ ╭ 
+     228.20 ┤    │ ││││ │ 
+     195.60 ┤    │ ││││ │ 
+     163.00 ┤    │ ││││ │ 
+     130.40 ┤    │ ││││ │ 
+      97.80 ┤    │ ││││ │ 
+      65.20 ┤    │ ││││ │ 
+      32.60 ┤    │ ││││ │ 
+       0.00 ┤    ╰─╯╰╯╰─╯ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 8
+REDIS_SET 8
+DB_FETCHES 8
+LRU_SET 8
+LRU_GET 14
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 14
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 156
+
+>> CHART
+     326.00 ┼╮             
+     293.40 ┤│             
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮ 
+     228.20 ┤    │ ││││ ││ 
+     195.60 ┤    │ ││││ ││ 
+     163.00 ┤    │ ││││ ││ 
+     130.40 ┤    │ ││││ ││ 
+      97.80 ┤    │ ││││ ││ 
+      65.20 ┤    │ ││││ ││ 
+      32.60 ┤    │ ││││ ││ 
+       0.00 ┤    ╰─╯╰╯╰─╯╰ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 15
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 15
+APP_EXECUTION_TIME (ms) 267
+AVERAGE(APP_EXECUTION_TIME) (ms) 164
+
+>> CHART
+     326.00 ┼╮              
+     293.40 ┤│              
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭ 
+     228.20 ┤    │ ││││ │││ 
+     195.60 ┤    │ ││││ │││ 
+     163.00 ┤    │ ││││ │││ 
+     130.40 ┤    │ ││││ │││ 
+      97.80 ┤    │ ││││ │││ 
+      65.20 ┤    │ ││││ │││ 
+      32.60 ┤    │ ││││ │││ 
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 16
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 16
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 153
+
+>> CHART
+     326.00 ┼╮               
+     293.40 ┤│               
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮ 
+     228.20 ┤    │ ││││ ││││ 
+     195.60 ┤    │ ││││ ││││ 
+     163.00 ┤    │ ││││ ││││ 
+     130.40 ┤    │ ││││ ││││ 
+      97.80 ┤    │ ││││ ││││ 
+      65.20 ┤    │ ││││ ││││ 
+      32.60 ┤    │ ││││ ││││ 
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 17
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 17
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 144
+
+>> CHART
+     326.00 ┼╮                
+     293.40 ┤│                
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮  
+     228.20 ┤    │ ││││ ││││  
+     195.60 ┤    │ ││││ ││││  
+     163.00 ┤    │ ││││ ││││  
+     130.40 ┤    │ ││││ ││││  
+      97.80 ┤    │ ││││ ││││  
+      65.20 ┤    │ ││││ ││││  
+      32.60 ┤    │ ││││ ││││  
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰─ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 18
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 18
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 136
+
+>> CHART
+     326.00 ┼╮                 
+     293.40 ┤│                 
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮   
+     228.20 ┤    │ ││││ ││││   
+     195.60 ┤    │ ││││ ││││   
+     163.00 ┤    │ ││││ ││││   
+     130.40 ┤    │ ││││ ││││   
+      97.80 ┤    │ ││││ ││││   
+      65.20 ┤    │ ││││ ││││   
+      32.60 ┤    │ ││││ ││││   
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 19
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 19
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 129
+
+>> CHART
+     326.00 ┼╮                  
+     293.40 ┤│                  
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮    
+     228.20 ┤    │ ││││ ││││    
+     195.60 ┤    │ ││││ ││││    
+     163.00 ┤    │ ││││ ││││    
+     130.40 ┤    │ ││││ ││││    
+      97.80 ┤    │ ││││ ││││    
+      65.20 ┤    │ ││││ ││││    
+      32.60 ┤    │ ││││ ││││    
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰─── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 20
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 20
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 123
+
+>> CHART
+     326.00 ┼╮                   
+     293.40 ┤│                   
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮     
+     228.20 ┤    │ ││││ ││││     
+     195.60 ┤    │ ││││ ││││     
+     163.00 ┤    │ ││││ ││││     
+     130.40 ┤    │ ││││ ││││     
+      97.80 ┤    │ ││││ ││││     
+      65.20 ┤    │ ││││ ││││     
+      32.60 ┤    │ ││││ ││││     
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰──── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 21
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 21
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 117
+
+>> CHART
+     326.00 ┼╮                    
+     293.40 ┤│                    
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮      
+     228.20 ┤    │ ││││ ││││      
+     195.60 ┤    │ ││││ ││││      
+     163.00 ┤    │ ││││ ││││      
+     130.40 ┤    │ ││││ ││││      
+      97.80 ┤    │ ││││ ││││      
+      65.20 ┤    │ ││││ ││││      
+      32.60 ┤    │ ││││ ││││      
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 22
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 22
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 112
+
+>> CHART
+     326.00 ┼╮                     
+     293.40 ┤│                     
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮       
+     228.20 ┤    │ ││││ ││││       
+     195.60 ┤    │ ││││ ││││       
+     163.00 ┤    │ ││││ ││││       
+     130.40 ┤    │ ││││ ││││       
+      97.80 ┤    │ ││││ ││││       
+      65.20 ┤    │ ││││ ││││       
+      32.60 ┤    │ ││││ ││││       
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 23
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 23
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 107
+
+>> CHART
+     326.00 ┼╮                      
+     293.40 ┤│                      
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮        
+     228.20 ┤    │ ││││ ││││        
+     195.60 ┤    │ ││││ ││││        
+     163.00 ┤    │ ││││ ││││        
+     130.40 ┤    │ ││││ ││││        
+      97.80 ┤    │ ││││ ││││        
+      65.20 ┤    │ ││││ ││││        
+      32.60 ┤    │ ││││ ││││        
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰─────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 24
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 24
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 102
+
+>> CHART
+     326.00 ┼╮                       
+     293.40 ┤│                       
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮         
+     228.20 ┤    │ ││││ ││││         
+     195.60 ┤    │ ││││ ││││         
+     163.00 ┤    │ ││││ ││││         
+     130.40 ┤    │ ││││ ││││         
+      97.80 ┤    │ ││││ ││││         
+      65.20 ┤    │ ││││ ││││         
+      32.60 ┤    │ ││││ ││││         
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰──────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 25
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 25
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 98
+
+>> CHART
+     326.00 ┼╮                        
+     293.40 ┤│                        
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮          
+     228.20 ┤    │ ││││ ││││          
+     195.60 ┤    │ ││││ ││││          
+     163.00 ┤    │ ││││ ││││          
+     130.40 ┤    │ ││││ ││││          
+      97.80 ┤    │ ││││ ││││          
+      65.20 ┤    │ ││││ ││││          
+      32.60 ┤    │ ││││ ││││          
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 26
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 26
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 94
+
+>> CHART
+     326.00 ┼╮                         
+     293.40 ┤│                         
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮           
+     228.20 ┤    │ ││││ ││││           
+     195.60 ┤    │ ││││ ││││           
+     163.00 ┤    │ ││││ ││││           
+     130.40 ┤    │ ││││ ││││           
+      97.80 ┤    │ ││││ ││││           
+      65.20 ┤    │ ││││ ││││           
+      32.60 ┤    │ ││││ ││││           
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 27
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 27
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 91
+
+>> CHART
+     326.00 ┼╮                          
+     293.40 ┤│                          
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮            
+     228.20 ┤    │ ││││ ││││            
+     195.60 ┤    │ ││││ ││││            
+     163.00 ┤    │ ││││ ││││            
+     130.40 ┤    │ ││││ ││││            
+      97.80 ┤    │ ││││ ││││            
+      65.20 ┤    │ ││││ ││││            
+      32.60 ┤    │ ││││ ││││            
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰─────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 28
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 28
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 88
+
+>> CHART
+     326.00 ┼╮                           
+     293.40 ┤│                           
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮             
+     228.20 ┤    │ ││││ ││││             
+     195.60 ┤    │ ││││ ││││             
+     163.00 ┤    │ ││││ ││││             
+     130.40 ┤    │ ││││ ││││             
+      97.80 ┤    │ ││││ ││││             
+      65.20 ┤    │ ││││ ││││             
+      32.60 ┤    │ ││││ ││││             
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰──────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 29
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 29
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 85
+
+>> CHART
+     326.00 ┼╮                            
+     293.40 ┤│                            
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮              
+     228.20 ┤    │ ││││ ││││              
+     195.60 ┤    │ ││││ ││││              
+     163.00 ┤    │ ││││ ││││              
+     130.40 ┤    │ ││││ ││││              
+      97.80 ┤    │ ││││ ││││              
+      65.20 ┤    │ ││││ ││││              
+      32.60 ┤    │ ││││ ││││              
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 30
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 30
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 82
+
+>> CHART
+     326.00 ┼╮                             
+     293.40 ┤│                             
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               
+     228.20 ┤    │ ││││ ││││               
+     195.60 ┤    │ ││││ ││││               
+     163.00 ┤    │ ││││ ││││               
+     130.40 ┤    │ ││││ ││││               
+      97.80 ┤    │ ││││ ││││               
+      65.20 ┤    │ ││││ ││││               
+      32.60 ┤    │ ││││ ││││               
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 9
+REDIS_SET 9
+DB_FETCHES 9
+LRU_SET 9
+LRU_GET 31
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 31
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 79
+
+>> CHART
+     326.00 ┼╮                              
+     293.40 ┤│                              
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮                
+     228.20 ┤    │ ││││ ││││                
+     195.60 ┤    │ ││││ ││││                
+     163.00 ┤    │ ││││ ││││                
+     130.40 ┤    │ ││││ ││││                
+      97.80 ┤    │ ││││ ││││                
+      65.20 ┤    │ ││││ ││││                
+      32.60 ┤    │ ││││ ││││                
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰─────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 32
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 2
+APP_EXECUTIONS_COUNT 32
+APP_EXECUTION_TIME (ms) 258
+AVERAGE(APP_EXECUTION_TIME) (ms) 85
+
+>> CHART
+     326.00 ┼╮                               
+     293.40 ┤│                               
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭ 
+     228.20 ┤    │ ││││ ││││               │ 
+     195.60 ┤    │ ││││ ││││               │ 
+     163.00 ┤    │ ││││ ││││               │ 
+     130.40 ┤    │ ││││ ││││               │ 
+      97.80 ┤    │ ││││ ││││               │ 
+      65.20 ┤    │ ││││ ││││               │ 
+      32.60 ┤    │ ││││ ││││               │ 
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 33
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 33
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 82
+
+>> CHART
+     326.00 ┼╮                                
+     293.40 ┤│                                
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮ 
+     228.20 ┤    │ ││││ ││││               ││ 
+     195.60 ┤    │ ││││ ││││               ││ 
+     163.00 ┤    │ ││││ ││││               ││ 
+     130.40 ┤    │ ││││ ││││               ││ 
+      97.80 ┤    │ ││││ ││││               ││ 
+      65.20 ┤    │ ││││ ││││               ││ 
+      32.60 ┤    │ ││││ ││││               ││ 
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 34
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 34
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 80
+
+>> CHART
+     326.00 ┼╮                                 
+     293.40 ┤│                                 
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮  
+     228.20 ┤    │ ││││ ││││               ││  
+     195.60 ┤    │ ││││ ││││               ││  
+     163.00 ┤    │ ││││ ││││               ││  
+     130.40 ┤    │ ││││ ││││               ││  
+      97.80 ┤    │ ││││ ││││               ││  
+      65.20 ┤    │ ││││ ││││               ││  
+      32.60 ┤    │ ││││ ││││               ││  
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─ 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 35
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 35
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 78
+
+>> CHART
+     326.00 ┼╮                                  
+     293.40 ┤│                                  
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮   
+     228.20 ┤    │ ││││ ││││               ││   
+     195.60 ┤    │ ││││ ││││               ││   
+     163.00 ┤    │ ││││ ││││               ││   
+     130.40 ┤    │ ││││ ││││               ││   
+      97.80 ┤    │ ││││ ││││               ││   
+      65.20 ┤    │ ││││ ││││               ││   
+      32.60 ┤    │ ││││ ││││               ││   
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 36
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 36
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 75
+
+>> CHART
+     326.00 ┼╮                                   
+     293.40 ┤│                                   
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮    
+     228.20 ┤    │ ││││ ││││               ││    
+     195.60 ┤    │ ││││ ││││               ││    
+     163.00 ┤    │ ││││ ││││               ││    
+     130.40 ┤    │ ││││ ││││               ││    
+      97.80 ┤    │ ││││ ││││               ││    
+      65.20 ┤    │ ││││ ││││               ││    
+      32.60 ┤    │ ││││ ││││               ││    
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 37
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 37
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 73
+
+>> CHART
+     326.00 ┼╮                                    
+     293.40 ┤│                                    
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮     
+     228.20 ┤    │ ││││ ││││               ││     
+     195.60 ┤    │ ││││ ││││               ││     
+     163.00 ┤    │ ││││ ││││               ││     
+     130.40 ┤    │ ││││ ││││               ││     
+      97.80 ┤    │ ││││ ││││               ││     
+      65.20 ┤    │ ││││ ││││               ││     
+      32.60 ┤    │ ││││ ││││               ││     
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 38
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 38
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 71
+
+>> CHART
+     326.00 ┼╮                                     
+     293.40 ┤│                                     
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮      
+     228.20 ┤    │ ││││ ││││               ││      
+     195.60 ┤    │ ││││ ││││               ││      
+     163.00 ┤    │ ││││ ││││               ││      
+     130.40 ┤    │ ││││ ││││               ││      
+      97.80 ┤    │ ││││ ││││               ││      
+      65.20 ┤    │ ││││ ││││               ││      
+      32.60 ┤    │ ││││ ││││               ││      
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 39
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 39
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 70
+
+>> CHART
+     326.00 ┼╮                                      
+     293.40 ┤│                                      
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮       
+     228.20 ┤    │ ││││ ││││               ││       
+     195.60 ┤    │ ││││ ││││               ││       
+     163.00 ┤    │ ││││ ││││               ││       
+     130.40 ┤    │ ││││ ││││               ││       
+      97.80 ┤    │ ││││ ││││               ││       
+      65.20 ┤    │ ││││ ││││               ││       
+      32.60 ┤    │ ││││ ││││               ││       
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 40
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 40
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 68
+
+>> CHART
+     326.00 ┼╮                                       
+     293.40 ┤│                                       
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮        
+     228.20 ┤    │ ││││ ││││               ││        
+     195.60 ┤    │ ││││ ││││               ││        
+     163.00 ┤    │ ││││ ││││               ││        
+     130.40 ┤    │ ││││ ││││               ││        
+      97.80 ┤    │ ││││ ││││               ││        
+      65.20 ┤    │ ││││ ││││               ││        
+      32.60 ┤    │ ││││ ││││               ││        
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 41
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 41
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 66
+
+>> CHART
+     326.00 ┼╮                                        
+     293.40 ┤│                                        
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮         
+     228.20 ┤    │ ││││ ││││               ││         
+     195.60 ┤    │ ││││ ││││               ││         
+     163.00 ┤    │ ││││ ││││               ││         
+     130.40 ┤    │ ││││ ││││               ││         
+      97.80 ┤    │ ││││ ││││               ││         
+      65.20 ┤    │ ││││ ││││               ││         
+      32.60 ┤    │ ││││ ││││               ││         
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 42
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 42
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 65
+
+>> CHART
+     326.00 ┼╮                                         
+     293.40 ┤│                                         
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮          
+     228.20 ┤    │ ││││ ││││               ││          
+     195.60 ┤    │ ││││ ││││               ││          
+     163.00 ┤    │ ││││ ││││               ││          
+     130.40 ┤    │ ││││ ││││               ││          
+      97.80 ┤    │ ││││ ││││               ││          
+      65.20 ┤    │ ││││ ││││               ││          
+      32.60 ┤    │ ││││ ││││               ││          
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 43
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 43
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 63
+
+>> CHART
+     326.00 ┼╮                                          
+     293.40 ┤│                                          
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮           
+     228.20 ┤    │ ││││ ││││               ││           
+     195.60 ┤    │ ││││ ││││               ││           
+     163.00 ┤    │ ││││ ││││               ││           
+     130.40 ┤    │ ││││ ││││               ││           
+      97.80 ┤    │ ││││ ││││               ││           
+      65.20 ┤    │ ││││ ││││               ││           
+      32.60 ┤    │ ││││ ││││               ││           
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 44
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 44
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 62
+
+>> CHART
+     326.00 ┼╮                                           
+     293.40 ┤│                                           
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮            
+     228.20 ┤    │ ││││ ││││               ││            
+     195.60 ┤    │ ││││ ││││               ││            
+     163.00 ┤    │ ││││ ││││               ││            
+     130.40 ┤    │ ││││ ││││               ││            
+      97.80 ┤    │ ││││ ││││               ││            
+      65.20 ┤    │ ││││ ││││               ││            
+      32.60 ┤    │ ││││ ││││               ││            
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 45
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 45
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 60
+
+>> CHART
+     326.00 ┼╮                                            
+     293.40 ┤│                                            
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮             
+     228.20 ┤    │ ││││ ││││               ││             
+     195.60 ┤    │ ││││ ││││               ││             
+     163.00 ┤    │ ││││ ││││               ││             
+     130.40 ┤    │ ││││ ││││               ││             
+      97.80 ┤    │ ││││ ││││               ││             
+      65.20 ┤    │ ││││ ││││               ││             
+      32.60 ┤    │ ││││ ││││               ││             
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 46
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 46
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 59
+
+>> CHART
+     326.00 ┼╮                                             
+     293.40 ┤│                                             
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮              
+     228.20 ┤    │ ││││ ││││               ││              
+     195.60 ┤    │ ││││ ││││               ││              
+     163.00 ┤    │ ││││ ││││               ││              
+     130.40 ┤    │ ││││ ││││               ││              
+      97.80 ┤    │ ││││ ││││               ││              
+      65.20 ┤    │ ││││ ││││               ││              
+      32.60 ┤    │ ││││ ││││               ││              
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 47
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 47
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 58
+
+>> CHART
+     326.00 ┼╮                                              
+     293.40 ┤│                                              
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮               
+     228.20 ┤    │ ││││ ││││               ││               
+     195.60 ┤    │ ││││ ││││               ││               
+     163.00 ┤    │ ││││ ││││               ││               
+     130.40 ┤    │ ││││ ││││               ││               
+      97.80 ┤    │ ││││ ││││               ││               
+      65.20 ┤    │ ││││ ││││               ││               
+      32.60 ┤    │ ││││ ││││               ││               
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 48
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 48
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 57
+
+>> CHART
+     326.00 ┼╮                                               
+     293.40 ┤│                                               
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                
+     228.20 ┤    │ ││││ ││││               ││                
+     195.60 ┤    │ ││││ ││││               ││                
+     163.00 ┤    │ ││││ ││││               ││                
+     130.40 ┤    │ ││││ ││││               ││                
+      97.80 ┤    │ ││││ ││││               ││                
+      65.20 ┤    │ ││││ ││││               ││                
+      32.60 ┤    │ ││││ ││││               ││                
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 49
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 49
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 55
+
+>> CHART
+     326.00 ┼╮                                                
+     293.40 ┤│                                                
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                 
+     228.20 ┤    │ ││││ ││││               ││                 
+     195.60 ┤    │ ││││ ││││               ││                 
+     163.00 ┤    │ ││││ ││││               ││                 
+     130.40 ┤    │ ││││ ││││               ││                 
+      97.80 ┤    │ ││││ ││││               ││                 
+      65.20 ┤    │ ││││ ││││               ││                 
+      32.60 ┤    │ ││││ ││││               ││                 
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 50
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 50
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 54
+
+>> CHART
+     326.00 ┼╮                                                 
+     293.40 ┤│                                                 
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                  
+     228.20 ┤    │ ││││ ││││               ││                  
+     195.60 ┤    │ ││││ ││││               ││                  
+     163.00 ┤    │ ││││ ││││               ││                  
+     130.40 ┤    │ ││││ ││││               ││                  
+      97.80 ┤    │ ││││ ││││               ││                  
+      65.20 ┤    │ ││││ ││││               ││                  
+      32.60 ┤    │ ││││ ││││               ││                  
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 51
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 51
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 53
+
+>> CHART
+     326.00 ┼╮                                                  
+     293.40 ┤│                                                  
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                   
+     228.20 ┤    │ ││││ ││││               ││                   
+     195.60 ┤    │ ││││ ││││               ││                   
+     163.00 ┤    │ ││││ ││││               ││                   
+     130.40 ┤    │ ││││ ││││               ││                   
+      97.80 ┤    │ ││││ ││││               ││                   
+      65.20 ┤    │ ││││ ││││               ││                   
+      32.60 ┤    │ ││││ ││││               ││                   
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 52
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 52
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 52
+
+>> CHART
+     326.00 ┼╮                                                   
+     293.40 ┤│                                                   
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                    
+     228.20 ┤    │ ││││ ││││               ││                    
+     195.60 ┤    │ ││││ ││││               ││                    
+     163.00 ┤    │ ││││ ││││               ││                    
+     130.40 ┤    │ ││││ ││││               ││                    
+      97.80 ┤    │ ││││ ││││               ││                    
+      65.20 ┤    │ ││││ ││││               ││                    
+      32.60 ┤    │ ││││ ││││               ││                    
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 53
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 53
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 51
+
+>> CHART
+     326.00 ┼╮                                                    
+     293.40 ┤│                                                    
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                     
+     228.20 ┤    │ ││││ ││││               ││                     
+     195.60 ┤    │ ││││ ││││               ││                     
+     163.00 ┤    │ ││││ ││││               ││                     
+     130.40 ┤    │ ││││ ││││               ││                     
+      97.80 ┤    │ ││││ ││││               ││                     
+      65.20 ┤    │ ││││ ││││               ││                     
+      32.60 ┤    │ ││││ ││││               ││                     
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 54
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 54
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 50
+
+>> CHART
+     326.00 ┼╮                                                     
+     293.40 ┤│                                                     
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                      
+     228.20 ┤    │ ││││ ││││               ││                      
+     195.60 ┤    │ ││││ ││││               ││                      
+     163.00 ┤    │ ││││ ││││               ││                      
+     130.40 ┤    │ ││││ ││││               ││                      
+      97.80 ┤    │ ││││ ││││               ││                      
+      65.20 ┤    │ ││││ ││││               ││                      
+      32.60 ┤    │ ││││ ││││               ││                      
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 55
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 55
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 49
+
+>> CHART
+     326.00 ┼╮                                                      
+     293.40 ┤│                                                      
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                       
+     228.20 ┤    │ ││││ ││││               ││                       
+     195.60 ┤    │ ││││ ││││               ││                       
+     163.00 ┤    │ ││││ ││││               ││                       
+     130.40 ┤    │ ││││ ││││               ││                       
+      97.80 ┤    │ ││││ ││││               ││                       
+      65.20 ┤    │ ││││ ││││               ││                       
+      32.60 ┤    │ ││││ ││││               ││                       
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 56
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 56
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 49
+
+>> CHART
+     326.00 ┼╮                                                       
+     293.40 ┤│                                                       
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                        
+     228.20 ┤    │ ││││ ││││               ││                        
+     195.60 ┤    │ ││││ ││││               ││                        
+     163.00 ┤    │ ││││ ││││               ││                        
+     130.40 ┤    │ ││││ ││││               ││                        
+      97.80 ┤    │ ││││ ││││               ││                        
+      65.20 ┤    │ ││││ ││││               ││                        
+      32.60 ┤    │ ││││ ││││               ││                        
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 57
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 57
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 48
+
+>> CHART
+     326.00 ┼╮                                                        
+     293.40 ┤│                                                        
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                         
+     228.20 ┤    │ ││││ ││││               ││                         
+     195.60 ┤    │ ││││ ││││               ││                         
+     163.00 ┤    │ ││││ ││││               ││                         
+     130.40 ┤    │ ││││ ││││               ││                         
+      97.80 ┤    │ ││││ ││││               ││                         
+      65.20 ┤    │ ││││ ││││               ││                         
+      32.60 ┤    │ ││││ ││││               ││                         
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 58
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 58
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 47
+
+>> CHART
+     326.00 ┼╮                                                         
+     293.40 ┤│                                                         
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                          
+     228.20 ┤    │ ││││ ││││               ││                          
+     195.60 ┤    │ ││││ ││││               ││                          
+     163.00 ┤    │ ││││ ││││               ││                          
+     130.40 ┤    │ ││││ ││││               ││                          
+      97.80 ┤    │ ││││ ││││               ││                          
+      65.20 ┤    │ ││││ ││││               ││                          
+      32.60 ┤    │ ││││ ││││               ││                          
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 59
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 59
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 46
+
+>> CHART
+     326.00 ┼╮                                                          
+     293.40 ┤│                                                          
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                           
+     228.20 ┤    │ ││││ ││││               ││                           
+     195.60 ┤    │ ││││ ││││               ││                           
+     163.00 ┤    │ ││││ ││││               ││                           
+     130.40 ┤    │ ││││ ││││               ││                           
+      97.80 ┤    │ ││││ ││││               ││                           
+      65.20 ┤    │ ││││ ││││               ││                           
+      32.60 ┤    │ ││││ ││││               ││                           
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 60
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 60
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 45
+
+>> CHART
+     326.00 ┼╮                                                           
+     293.40 ┤│                                                           
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                            
+     228.20 ┤    │ ││││ ││││               ││                            
+     195.60 ┤    │ ││││ ││││               ││                            
+     163.00 ┤    │ ││││ ││││               ││                            
+     130.40 ┤    │ ││││ ││││               ││                            
+      97.80 ┤    │ ││││ ││││               ││                            
+      65.20 ┤    │ ││││ ││││               ││                            
+      32.60 ┤    │ ││││ ││││               ││                            
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 61
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 61
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 45
+
+>> CHART
+     326.00 ┼╮                                                            
+     293.40 ┤│                                                            
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                             
+     228.20 ┤    │ ││││ ││││               ││                             
+     195.60 ┤    │ ││││ ││││               ││                             
+     163.00 ┤    │ ││││ ││││               ││                             
+     130.40 ┤    │ ││││ ││││               ││                             
+      97.80 ┤    │ ││││ ││││               ││                             
+      65.20 ┤    │ ││││ ││││               ││                             
+      32.60 ┤    │ ││││ ││││               ││                             
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 62
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 62
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 44
+
+>> CHART
+     326.00 ┼╮                                                             
+     293.40 ┤│                                                             
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                              
+     228.20 ┤    │ ││││ ││││               ││                              
+     195.60 ┤    │ ││││ ││││               ││                              
+     163.00 ┤    │ ││││ ││││               ││                              
+     130.40 ┤    │ ││││ ││││               ││                              
+      97.80 ┤    │ ││││ ││││               ││                              
+      65.20 ┤    │ ││││ ││││               ││                              
+      32.60 ┤    │ ││││ ││││               ││                              
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 63
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 63
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 43
+
+>> CHART
+     326.00 ┼╮                                                              
+     293.40 ┤│                                                              
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                               
+     228.20 ┤    │ ││││ ││││               ││                               
+     195.60 ┤    │ ││││ ││││               ││                               
+     163.00 ┤    │ ││││ ││││               ││                               
+     130.40 ┤    │ ││││ ││││               ││                               
+      97.80 ┤    │ ││││ ││││               ││                               
+      65.20 ┤    │ ││││ ││││               ││                               
+      32.60 ┤    │ ││││ ││││               ││                               
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 64
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 64
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 42
+
+>> CHART
+     326.00 ┼╮                                                               
+     293.40 ┤│                                                               
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                
+     228.20 ┤    │ ││││ ││││               ││                                
+     195.60 ┤    │ ││││ ││││               ││                                
+     163.00 ┤    │ ││││ ││││               ││                                
+     130.40 ┤    │ ││││ ││││               ││                                
+      97.80 ┤    │ ││││ ││││               ││                                
+      65.20 ┤    │ ││││ ││││               ││                                
+      32.60 ┤    │ ││││ ││││               ││                                
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 65
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 65
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 42
+
+>> CHART
+     326.00 ┼╮                                                                
+     293.40 ┤│                                                                
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                 
+     228.20 ┤    │ ││││ ││││               ││                                 
+     195.60 ┤    │ ││││ ││││               ││                                 
+     163.00 ┤    │ ││││ ││││               ││                                 
+     130.40 ┤    │ ││││ ││││               ││                                 
+      97.80 ┤    │ ││││ ││││               ││                                 
+      65.20 ┤    │ ││││ ││││               ││                                 
+      32.60 ┤    │ ││││ ││││               ││                                 
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 66
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 66
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 41
+
+>> CHART
+     326.00 ┼╮                                                                 
+     293.40 ┤│                                                                 
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                  
+     228.20 ┤    │ ││││ ││││               ││                                  
+     195.60 ┤    │ ││││ ││││               ││                                  
+     163.00 ┤    │ ││││ ││││               ││                                  
+     130.40 ┤    │ ││││ ││││               ││                                  
+      97.80 ┤    │ ││││ ││││               ││                                  
+      65.20 ┤    │ ││││ ││││               ││                                  
+      32.60 ┤    │ ││││ ││││               ││                                  
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 67
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 67
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 41
+
+>> CHART
+     326.00 ┼╮                                                                  
+     293.40 ┤│                                                                  
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                   
+     228.20 ┤    │ ││││ ││││               ││                                   
+     195.60 ┤    │ ││││ ││││               ││                                   
+     163.00 ┤    │ ││││ ││││               ││                                   
+     130.40 ┤    │ ││││ ││││               ││                                   
+      97.80 ┤    │ ││││ ││││               ││                                   
+      65.20 ┤    │ ││││ ││││               ││                                   
+      32.60 ┤    │ ││││ ││││               ││                                   
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 68
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 68
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 40
+
+>> CHART
+     326.00 ┼╮                                                                   
+     293.40 ┤│                                                                   
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                    
+     228.20 ┤    │ ││││ ││││               ││                                    
+     195.60 ┤    │ ││││ ││││               ││                                    
+     163.00 ┤    │ ││││ ││││               ││                                    
+     130.40 ┤    │ ││││ ││││               ││                                    
+      97.80 ┤    │ ││││ ││││               ││                                    
+      65.20 ┤    │ ││││ ││││               ││                                    
+      32.60 ┤    │ ││││ ││││               ││                                    
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 69
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 69
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 39
+
+>> CHART
+     326.00 ┼╮                                                                    
+     293.40 ┤│                                                                    
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                     
+     228.20 ┤    │ ││││ ││││               ││                                     
+     195.60 ┤    │ ││││ ││││               ││                                     
+     163.00 ┤    │ ││││ ││││               ││                                     
+     130.40 ┤    │ ││││ ││││               ││                                     
+      97.80 ┤    │ ││││ ││││               ││                                     
+      65.20 ┤    │ ││││ ││││               ││                                     
+      32.60 ┤    │ ││││ ││││               ││                                     
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 70
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 70
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 39
+
+>> CHART
+     326.00 ┼╮                                                                     
+     293.40 ┤│                                                                     
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                      
+     228.20 ┤    │ ││││ ││││               ││                                      
+     195.60 ┤    │ ││││ ││││               ││                                      
+     163.00 ┤    │ ││││ ││││               ││                                      
+     130.40 ┤    │ ││││ ││││               ││                                      
+      97.80 ┤    │ ││││ ││││               ││                                      
+      65.20 ┤    │ ││││ ││││               ││                                      
+      32.60 ┤    │ ││││ ││││               ││                                      
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 71
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 71
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 38
+
+>> CHART
+     326.00 ┼╮                                                                      
+     293.40 ┤│                                                                      
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                       
+     228.20 ┤    │ ││││ ││││               ││                                       
+     195.60 ┤    │ ││││ ││││               ││                                       
+     163.00 ┤    │ ││││ ││││               ││                                       
+     130.40 ┤    │ ││││ ││││               ││                                       
+      97.80 ┤    │ ││││ ││││               ││                                       
+      65.20 ┤    │ ││││ ││││               ││                                       
+      32.60 ┤    │ ││││ ││││               ││                                       
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 72
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 72
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 38
+
+>> CHART
+     326.00 ┼╮                                                                       
+     293.40 ┤│                                                                       
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                        
+     228.20 ┤    │ ││││ ││││               ││                                        
+     195.60 ┤    │ ││││ ││││               ││                                        
+     163.00 ┤    │ ││││ ││││               ││                                        
+     130.40 ┤    │ ││││ ││││               ││                                        
+      97.80 ┤    │ ││││ ││││               ││                                        
+      65.20 ┤    │ ││││ ││││               ││                                        
+      32.60 ┤    │ ││││ ││││               ││                                        
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 73
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 73
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 37
+
+>> CHART
+     326.00 ┼╮                                                                        
+     293.40 ┤│                                                                        
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                         
+     228.20 ┤    │ ││││ ││││               ││                                         
+     195.60 ┤    │ ││││ ││││               ││                                         
+     163.00 ┤    │ ││││ ││││               ││                                         
+     130.40 ┤    │ ││││ ││││               ││                                         
+      97.80 ┤    │ ││││ ││││               ││                                         
+      65.20 ┤    │ ││││ ││││               ││                                         
+      32.60 ┤    │ ││││ ││││               ││                                         
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 74
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 74
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 37
+
+>> CHART
+     326.00 ┼╮                                                                         
+     293.40 ┤│                                                                         
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                          
+     228.20 ┤    │ ││││ ││││               ││                                          
+     195.60 ┤    │ ││││ ││││               ││                                          
+     163.00 ┤    │ ││││ ││││               ││                                          
+     130.40 ┤    │ ││││ ││││               ││                                          
+      97.80 ┤    │ ││││ ││││               ││                                          
+      65.20 ┤    │ ││││ ││││               ││                                          
+      32.60 ┤    │ ││││ ││││               ││                                          
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 75
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 75
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 36
+
+>> CHART
+     326.00 ┼╮                                                                          
+     293.40 ┤│                                                                          
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                           
+     228.20 ┤    │ ││││ ││││               ││                                           
+     195.60 ┤    │ ││││ ││││               ││                                           
+     163.00 ┤    │ ││││ ││││               ││                                           
+     130.40 ┤    │ ││││ ││││               ││                                           
+      97.80 ┤    │ ││││ ││││               ││                                           
+      65.20 ┤    │ ││││ ││││               ││                                           
+      32.60 ┤    │ ││││ ││││               ││                                           
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 76
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 76
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 36
+
+>> CHART
+     326.00 ┼╮                                                                           
+     293.40 ┤│                                                                           
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                            
+     228.20 ┤    │ ││││ ││││               ││                                            
+     195.60 ┤    │ ││││ ││││               ││                                            
+     163.00 ┤    │ ││││ ││││               ││                                            
+     130.40 ┤    │ ││││ ││││               ││                                            
+      97.80 ┤    │ ││││ ││││               ││                                            
+      65.20 ┤    │ ││││ ││││               ││                                            
+      32.60 ┤    │ ││││ ││││               ││                                            
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 77
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 77
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 35
+
+>> CHART
+     326.00 ┼╮                                                                            
+     293.40 ┤│                                                                            
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                             
+     228.20 ┤    │ ││││ ││││               ││                                             
+     195.60 ┤    │ ││││ ││││               ││                                             
+     163.00 ┤    │ ││││ ││││               ││                                             
+     130.40 ┤    │ ││││ ││││               ││                                             
+      97.80 ┤    │ ││││ ││││               ││                                             
+      65.20 ┤    │ ││││ ││││               ││                                             
+      32.60 ┤    │ ││││ ││││               ││                                             
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 78
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 78
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 35
+
+>> CHART
+     326.00 ┼╮                                                                             
+     293.40 ┤│                                                                             
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                              
+     228.20 ┤    │ ││││ ││││               ││                                              
+     195.60 ┤    │ ││││ ││││               ││                                              
+     163.00 ┤    │ ││││ ││││               ││                                              
+     130.40 ┤    │ ││││ ││││               ││                                              
+      97.80 ┤    │ ││││ ││││               ││                                              
+      65.20 ┤    │ ││││ ││││               ││                                              
+      32.60 ┤    │ ││││ ││││               ││                                              
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 79
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 79
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 34
+
+>> CHART
+     326.00 ┼╮                                                                              
+     293.40 ┤│                                                                              
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                               
+     228.20 ┤    │ ││││ ││││               ││                                               
+     195.60 ┤    │ ││││ ││││               ││                                               
+     163.00 ┤    │ ││││ ││││               ││                                               
+     130.40 ┤    │ ││││ ││││               ││                                               
+      97.80 ┤    │ ││││ ││││               ││                                               
+      65.20 ┤    │ ││││ ││││               ││                                               
+      32.60 ┤    │ ││││ ││││               ││                                               
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 80
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 80
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 34
+
+>> CHART
+     326.00 ┼╮                                                                               
+     293.40 ┤│                                                                               
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                
+     228.20 ┤    │ ││││ ││││               ││                                                
+     195.60 ┤    │ ││││ ││││               ││                                                
+     163.00 ┤    │ ││││ ││││               ││                                                
+     130.40 ┤    │ ││││ ││││               ││                                                
+      97.80 ┤    │ ││││ ││││               ││                                                
+      65.20 ┤    │ ││││ ││││               ││                                                
+      32.60 ┤    │ ││││ ││││               ││                                                
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 81
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 81
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 34
+
+>> CHART
+     326.00 ┼╮                                                                                
+     293.40 ┤│                                                                                
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                 
+     228.20 ┤    │ ││││ ││││               ││                                                 
+     195.60 ┤    │ ││││ ││││               ││                                                 
+     163.00 ┤    │ ││││ ││││               ││                                                 
+     130.40 ┤    │ ││││ ││││               ││                                                 
+      97.80 ┤    │ ││││ ││││               ││                                                 
+      65.20 ┤    │ ││││ ││││               ││                                                 
+      32.60 ┤    │ ││││ ││││               ││                                                 
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 82
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 82
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 33
+
+>> CHART
+     326.00 ┼╮                                                                                 
+     293.40 ┤│                                                                                 
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                  
+     228.20 ┤    │ ││││ ││││               ││                                                  
+     195.60 ┤    │ ││││ ││││               ││                                                  
+     163.00 ┤    │ ││││ ││││               ││                                                  
+     130.40 ┤    │ ││││ ││││               ││                                                  
+      97.80 ┤    │ ││││ ││││               ││                                                  
+      65.20 ┤    │ ││││ ││││               ││                                                  
+      32.60 ┤    │ ││││ ││││               ││                                                  
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 83
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 83
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 33
+
+>> CHART
+     326.00 ┼╮                                                                                  
+     293.40 ┤│                                                                                  
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                   
+     228.20 ┤    │ ││││ ││││               ││                                                   
+     195.60 ┤    │ ││││ ││││               ││                                                   
+     163.00 ┤    │ ││││ ││││               ││                                                   
+     130.40 ┤    │ ││││ ││││               ││                                                   
+      97.80 ┤    │ ││││ ││││               ││                                                   
+      65.20 ┤    │ ││││ ││││               ││                                                   
+      32.60 ┤    │ ││││ ││││               ││                                                   
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 84
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 84
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 32
+
+>> CHART
+     326.00 ┼╮                                                                                   
+     293.40 ┤│                                                                                   
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                    
+     228.20 ┤    │ ││││ ││││               ││                                                    
+     195.60 ┤    │ ││││ ││││               ││                                                    
+     163.00 ┤    │ ││││ ││││               ││                                                    
+     130.40 ┤    │ ││││ ││││               ││                                                    
+      97.80 ┤    │ ││││ ││││               ││                                                    
+      65.20 ┤    │ ││││ ││││               ││                                                    
+      32.60 ┤    │ ││││ ││││               ││                                                    
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 85
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 85
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 32
+
+>> CHART
+     326.00 ┼╮                                                                                    
+     293.40 ┤│                                                                                    
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                     
+     228.20 ┤    │ ││││ ││││               ││                                                     
+     195.60 ┤    │ ││││ ││││               ││                                                     
+     163.00 ┤    │ ││││ ││││               ││                                                     
+     130.40 ┤    │ ││││ ││││               ││                                                     
+      97.80 ┤    │ ││││ ││││               ││                                                     
+      65.20 ┤    │ ││││ ││││               ││                                                     
+      32.60 ┤    │ ││││ ││││               ││                                                     
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 86
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 86
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 32
+
+>> CHART
+     326.00 ┼╮                                                                                     
+     293.40 ┤│                                                                                     
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                      
+     228.20 ┤    │ ││││ ││││               ││                                                      
+     195.60 ┤    │ ││││ ││││               ││                                                      
+     163.00 ┤    │ ││││ ││││               ││                                                      
+     130.40 ┤    │ ││││ ││││               ││                                                      
+      97.80 ┤    │ ││││ ││││               ││                                                      
+      65.20 ┤    │ ││││ ││││               ││                                                      
+      32.60 ┤    │ ││││ ││││               ││                                                      
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 87
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 87
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 31
+
+>> CHART
+     326.00 ┼╮                                                                                      
+     293.40 ┤│                                                                                      
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                       
+     228.20 ┤    │ ││││ ││││               ││                                                       
+     195.60 ┤    │ ││││ ││││               ││                                                       
+     163.00 ┤    │ ││││ ││││               ││                                                       
+     130.40 ┤    │ ││││ ││││               ││                                                       
+      97.80 ┤    │ ││││ ││││               ││                                                       
+      65.20 ┤    │ ││││ ││││               ││                                                       
+      32.60 ┤    │ ││││ ││││               ││                                                       
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 88
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 88
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 31
+
+>> CHART
+     326.00 ┼╮                                                                                       
+     293.40 ┤│                                                                                       
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                        
+     228.20 ┤    │ ││││ ││││               ││                                                        
+     195.60 ┤    │ ││││ ││││               ││                                                        
+     163.00 ┤    │ ││││ ││││               ││                                                        
+     130.40 ┤    │ ││││ ││││               ││                                                        
+      97.80 ┤    │ ││││ ││││               ││                                                        
+      65.20 ┤    │ ││││ ││││               ││                                                        
+      32.60 ┤    │ ││││ ││││               ││                                                        
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 89
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 89
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 31
+
+>> CHART
+     326.00 ┼╮                                                                                        
+     293.40 ┤│                                                                                        
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                         
+     228.20 ┤    │ ││││ ││││               ││                                                         
+     195.60 ┤    │ ││││ ││││               ││                                                         
+     163.00 ┤    │ ││││ ││││               ││                                                         
+     130.40 ┤    │ ││││ ││││               ││                                                         
+      97.80 ┤    │ ││││ ││││               ││                                                         
+      65.20 ┤    │ ││││ ││││               ││                                                         
+      32.60 ┤    │ ││││ ││││               ││                                                         
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 90
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 90
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 30
+
+>> CHART
+     326.00 ┼╮                                                                                         
+     293.40 ┤│                                                                                         
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                          
+     228.20 ┤    │ ││││ ││││               ││                                                          
+     195.60 ┤    │ ││││ ││││               ││                                                          
+     163.00 ┤    │ ││││ ││││               ││                                                          
+     130.40 ┤    │ ││││ ││││               ││                                                          
+      97.80 ┤    │ ││││ ││││               ││                                                          
+      65.20 ┤    │ ││││ ││││               ││                                                          
+      32.60 ┤    │ ││││ ││││               ││                                                          
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 91
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 91
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 30
+
+>> CHART
+     326.00 ┼╮                                                                                          
+     293.40 ┤│                                                                                          
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                           
+     228.20 ┤    │ ││││ ││││               ││                                                           
+     195.60 ┤    │ ││││ ││││               ││                                                           
+     163.00 ┤    │ ││││ ││││               ││                                                           
+     130.40 ┤    │ ││││ ││││               ││                                                           
+      97.80 ┤    │ ││││ ││││               ││                                                           
+      65.20 ┤    │ ││││ ││││               ││                                                           
+      32.60 ┤    │ ││││ ││││               ││                                                           
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 92
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 92
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 30
+
+>> CHART
+     326.00 ┼╮                                                                                           
+     293.40 ┤│                                                                                           
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                            
+     228.20 ┤    │ ││││ ││││               ││                                                            
+     195.60 ┤    │ ││││ ││││               ││                                                            
+     163.00 ┤    │ ││││ ││││               ││                                                            
+     130.40 ┤    │ ││││ ││││               ││                                                            
+      97.80 ┤    │ ││││ ││││               ││                                                            
+      65.20 ┤    │ ││││ ││││               ││                                                            
+      32.60 ┤    │ ││││ ││││               ││                                                            
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 93
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 93
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 29
+
+>> CHART
+     326.00 ┼╮                                                                                            
+     293.40 ┤│                                                                                            
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                             
+     228.20 ┤    │ ││││ ││││               ││                                                             
+     195.60 ┤    │ ││││ ││││               ││                                                             
+     163.00 ┤    │ ││││ ││││               ││                                                             
+     130.40 ┤    │ ││││ ││││               ││                                                             
+      97.80 ┤    │ ││││ ││││               ││                                                             
+      65.20 ┤    │ ││││ ││││               ││                                                             
+      32.60 ┤    │ ││││ ││││               ││                                                             
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 94
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 94
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 29
+
+>> CHART
+     326.00 ┼╮                                                                                             
+     293.40 ┤│                                                                                             
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                              
+     228.20 ┤    │ ││││ ││││               ││                                                              
+     195.60 ┤    │ ││││ ││││               ││                                                              
+     163.00 ┤    │ ││││ ││││               ││                                                              
+     130.40 ┤    │ ││││ ││││               ││                                                              
+      97.80 ┤    │ ││││ ││││               ││                                                              
+      65.20 ┤    │ ││││ ││││               ││                                                              
+      32.60 ┤    │ ││││ ││││               ││                                                              
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 95
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 95
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 29
+
+>> CHART
+     326.00 ┼╮                                                                                              
+     293.40 ┤│                                                                                              
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                               
+     228.20 ┤    │ ││││ ││││               ││                                                               
+     195.60 ┤    │ ││││ ││││               ││                                                               
+     163.00 ┤    │ ││││ ││││               ││                                                               
+     130.40 ┤    │ ││││ ││││               ││                                                               
+      97.80 ┤    │ ││││ ││││               ││                                                               
+      65.20 ┤    │ ││││ ││││               ││                                                               
+      32.60 ┤    │ ││││ ││││               ││                                                               
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 96
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 96
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 28
+
+>> CHART
+     326.00 ┼╮                                                                                               
+     293.40 ┤│                                                                                               
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                                
+     228.20 ┤    │ ││││ ││││               ││                                                                
+     195.60 ┤    │ ││││ ││││               ││                                                                
+     163.00 ┤    │ ││││ ││││               ││                                                                
+     130.40 ┤    │ ││││ ││││               ││                                                                
+      97.80 ┤    │ ││││ ││││               ││                                                                
+      65.20 ┤    │ ││││ ││││               ││                                                                
+      32.60 ┤    │ ││││ ││││               ││                                                                
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 97
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 97
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 28
+
+>> CHART
+     326.00 ┼╮                                                                                                
+     293.40 ┤│                                                                                                
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                                 
+     228.20 ┤    │ ││││ ││││               ││                                                                 
+     195.60 ┤    │ ││││ ││││               ││                                                                 
+     163.00 ┤    │ ││││ ││││               ││                                                                 
+     130.40 ┤    │ ││││ ││││               ││                                                                 
+      97.80 ┤    │ ││││ ││││               ││                                                                 
+      65.20 ┤    │ ││││ ││││               ││                                                                 
+      32.60 ┤    │ ││││ ││││               ││                                                                 
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰──────────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 98
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 98
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 28
+
+>> CHART
+     326.00 ┼╮                                                                                                 
+     293.40 ┤│                                                                                                 
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                                  
+     228.20 ┤    │ ││││ ││││               ││                                                                  
+     195.60 ┤    │ ││││ ││││               ││                                                                  
+     163.00 ┤    │ ││││ ││││               ││                                                                  
+     130.40 ┤    │ ││││ ││││               ││                                                                  
+      97.80 ┤    │ ││││ ││││               ││                                                                  
+      65.20 ┤    │ ││││ ││││               ││                                                                  
+      32.60 ┤    │ ││││ ││││               ││                                                                  
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰───────────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 99
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 99
+APP_EXECUTION_TIME (ms) 1
+AVERAGE(APP_EXECUTION_TIME) (ms) 27
+
+>> CHART
+     326.00 ┼╮                                                                                                  
+     293.40 ┤│                                                                                                  
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                                   
+     228.20 ┤    │ ││││ ││││               ││                                                                   
+     195.60 ┤    │ ││││ ││││               ││                                                                   
+     163.00 ┤    │ ││││ ││││               ││                                                                   
+     130.40 ┤    │ ││││ ││││               ││                                                                   
+      97.80 ┤    │ ││││ ││││               ││                                                                   
+      65.20 ┤    │ ││││ ││││               ││                                                                   
+      32.60 ┤    │ ││││ ││││               ││                                                                   
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰────────────────────────────────────────────────────────────────── 
+
+ =============================================================== 
+
+>> APP VARIABLES
+REDIS_GET 10
+REDIS_SET 10
+DB_FETCHES 10
+LRU_SET 10
+LRU_GET 100
+
+>> TEST OUTPUTS
+TEST_RUN_TIME (s) 3
+APP_EXECUTIONS_COUNT 100
+APP_EXECUTION_TIME (ms) 0
+AVERAGE(APP_EXECUTION_TIME) (ms) 27
+
+>> CHART
+     326.00 ┼╮                                                                                                   
+     293.40 ┤│                                                                                                   
+     260.80 ┤╰───╮ ╭╮╭╮ ╭╮╭╮               ╭╮                                                                    
+     228.20 ┤    │ ││││ ││││               ││                                                                    
+     195.60 ┤    │ ││││ ││││               ││                                                                    
+     163.00 ┤    │ ││││ ││││               ││                                                                    
+     130.40 ┤    │ ││││ ││││               ││                                                                    
+      97.80 ┤    │ ││││ ││││               ││                                                                    
+      65.20 ┤    │ ││││ ││││               ││                                                                    
+      32.60 ┤    │ ││││ ││││               ││                                                                    
+       0.00 ┤    ╰─╯╰╯╰─╯╰╯╰───────────────╯╰─────────────────────────────────────────────────────────────────── 
+
+ =============================================================== 
